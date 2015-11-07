@@ -1,3 +1,5 @@
+LOCAL_PATH := device/brcm/rpi2
+
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := true
 TARGET_NO_RECOVERY := true
@@ -38,3 +40,5 @@ USE_CAMERA_STUB := true
 
 BOARD_SEPOLICY_DIRS := \
     device/brcm/rpi2/sepolicy
+	
+
