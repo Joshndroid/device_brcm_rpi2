@@ -32,6 +32,8 @@ TARGET_CPU_SMP := true
 #kernel
 TARGET_KERNEL_SOURCE := kernel/rpi
 TARGET_KERNEL_CONFIG := bcm2709_defconfig
+TARGET_KERNEL_GCC_ARM := 4.9.3
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-$(TARGET_KERNEL_GCC_ARM)/bin
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
